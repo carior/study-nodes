@@ -1,0 +1,73 @@
+{
+  "userName": "",
+  "permissionMode": "yolo",
+  "model": "sonnet",
+  "thinkingBudget": "low",
+  "effortLevel": "high",
+  "serviceTier": "default",
+  "enableAutoTitleGeneration": true,
+  "titleGenerationModel": "",
+  "excludedTags": [],
+  "mediaFolder": "",
+  "systemPrompt": "用中文回复",
+  "persistentExternalContextPaths": [],
+  "sharedEnvironmentVariables": "",
+  "envSnippets": [],
+  "customContextLimits": {},
+  "keyboardNavigation": {
+    "scrollUpKey": "w",
+    "scrollDownKey": "s",
+    "focusInputKey": "i"
+  },
+  "locale": "zh-CN",
+  "providerConfigs": {
+    "claude": {
+      "safeMode": "acceptEdits",
+      "cliPath": "",
+      "cliPathsByHost": {},
+      "loadUserSettings": true,
+      "enableChrome": false,
+      "enableBangBash": false,
+      "enableOpus1M": false,
+      "enableSonnet1M": false,
+      "lastModel": "sonnet",
+      "environmentVariables": "\"ANTHROPIC_AUTH_TOKEN\": \"eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJHcm91cE5hbWUiOiLkuIrmtbfkuIPnjKvmlofljJbkvKDlqpLmnInpmZDlhazlj7giLCJVc2VyTmFtZSI6ImxpdXJ1eXVlIiwiQWNjb3VudCI6ImxpdXJ1eXVlQDE3OTMyNjIxMTk5OTk3ODM3MzAiLCJTdWJqZWN0SUQiOiIxOTkyOTk1MTcxMDAzNzk3NTE0IiwiUGhvbmUiOiIiLCJHcm91cElEIjoiMTc5MzI2MjExOTk5OTc4MzczMCIsIlBhZ2VOYW1lIjoiIiwiTWFpbCI6IiIsIkNyZWF0ZVRpbWUiOiIyMDI1LTExLTI1IDE2OjQxOjQyIiwiVG9rZW5UeXBlIjoxLCJpc3MiOiJtaW5pbWF4In0.d3yQviHKRyQpt3RKeom7d3vmJRRL-UJhJBODcjYcs_r0XgrxWudyNCeACAu6NyxFh1srYN8eSYAsxDgLwE9pvmyb8HfmMwTz0F-3K5UmFIURFHtxoD4O0kXdZcJZFKL1luZ4yvqTDNyMF7dG7HBKPNmLfHaJSbtyz9-k33aGDmRoxC2fDjaakQHBzQ0Rr6HYsiVv5AxN1M--hBAub4O0F6qduXdIRHJE1lNuyNnLBSYFVUxIx7yu6O-iRQEbKQPV7RFfK6v2VoOB711lwENy-XazJEofGraskYfgwT1YG_266btmj8dbwSpNZCuWzwyMXa8FStTeNZ_vJxv82f46Tg\",\n    \"ANTHROPIC_BASE_URL\": \"https://api.minimaxi.com/anthropic\",\n    \"ANTHROPIC_DEFAULT_HAIKU_MODEL\": \"MiniMax-M2.7-highspeed\",\n    \"ANTHROPIC_DEFAULT_OPUS_MODEL\": \"MiniMax-M2.7-highspeed\",\n    \"ANTHROPIC_DEFAULT_SONNET_MODEL\": \"MiniMax-M2.7-highspeed\",\n    \"ANTHROPIC_MODEL\": \"MiniMax-M2.7-highspeed\",\n    \"ANTHROPIC_SMALL_FAST_MODEL\": \"MiniMax-M2.7-highspeed\",\n    \"CLAUDE_CODE_CUSTOM_INSTRUCTIONS\": \"用中文回复。我希望你:1. 直接、高效 - 跳过客套话,直奔主题\\\\n2. 实用优先 - 提供可立即使用的方案\\\\n3. 智能判断 - 根据问题复杂度调整详细程度\\\\n4. 代码规范 - 遵循最佳实践,添加必要注释\\\\n5. 格式自然 - 少用列表,多用段落,避免过度加粗\\\\n\\\\n对于模糊问题,基于最合理的理解直接回答,不需要反复确认。\",\n    \"CLAUDE_CODE_DISABLE_NONESSENTIAL_TRAFFIC\": false",
+      "environmentHash": ""
+    },
+    "codex": {
+      "enabled": true,
+      "safeMode": "workspace-write",
+      "cliPath": "",
+      "cliPathsByHost": {},
+      "reasoningSummary": "detailed",
+      "environmentVariables": "OPENAI_API_KEY=\"cg_b6c19ecf4b94b200e406e2b03289148f9c3e7b73e24c1724\"\nOPENAI_BASE_URL= \"https://apitokenzz.xyz/v1\"\nOPENAI_MODEL= \"gpt-5.4\"",
+      "environmentHash": "OPENAI_API_KEY=cg_b6c19ecf4b94b200e406e2b03289148f9c3e7b73e24c1724|OPENAI_BASE_URL=https://apitokenzz.xyz/v1|OPENAI_MODEL=gpt-5.4",
+      "installationMethodsByHost": {
+        "mac.local": "native-windows"
+      },
+      "wslDistroOverridesByHost": {}
+    }
+  },
+  "settingsProvider": "claude",
+  "savedProviderModel": {
+    "claude": "sonnet",
+    "codex": "gpt-5.4"
+  },
+  "savedProviderEffort": {
+    "claude": "high",
+    "codex": "high"
+  },
+  "savedProviderServiceTier": {
+    "codex": "default"
+  },
+  "savedProviderThinkingBudget": {
+    "claude": "low",
+    "codex": "off"
+  },
+  "lastCustomModel": "",
+  "maxTabs": 3,
+  "tabBarPosition": "input",
+  "enableAutoScroll": true,
+  "openInMainTab": false,
+  "hiddenProviderCommands": {}
+}

@@ -1,0 +1,24 @@
+{
+  "id": "conv-1776132688884-j0pz9ap87",
+  "providerId": "claude",
+  "title": "说明模型身份",
+  "titleGenerationStatus": "success",
+  "createdAt": 1776132688889,
+  "updatedAt": 1776132891559,
+  "lastResponseAt": 1776132783753,
+  "sessionId": "15a178ec-e41f-4b24-b33a-e64acc175eb3",
+  "providerState": {
+    "providerSessionId": "15a178ec-e41f-4b24-b33a-e64acc175eb3"
+  },
+  "currentNote": "mine/前端/obsidian的一些插件.md",
+  "usage": {
+    "model": "sonnet",
+    "inputTokens": 126,
+    "cacheCreationInputTokens": 234,
+    "cacheReadInputTokens": 20521,
+    "contextWindow": 200000,
+    "contextTokens": 20881,
+    "percentage": 10,
+    "contextWindowIsAuthoritative": true
+  }
+}

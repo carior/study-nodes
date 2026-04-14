@@ -1,0 +1,21 @@
+{
+  "id": "conv-1776133387859-3rr6xw6tp",
+  "providerId": "claude",
+  "title": "Defuddle WeChat article",
+  "titleGenerationStatus": "success",
+  "createdAt": 1776133387859,
+  "updatedAt": 1776133897317,
+  "lastResponseAt": 1776133897317,
+  "sessionId": null,
+  "providerState": {},
+  "currentNote": "mine/前端/obsidian的一些插件.md",
+  "usage": {
+    "model": "sonnet",
+    "inputTokens": 2797,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 17736,
+    "contextWindow": 200000,
+    "contextTokens": 20533,
+    "percentage": 10
+  }
+}
