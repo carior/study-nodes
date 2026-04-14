@@ -4,23 +4,22 @@
   "title": "Explain model identity",
   "titleGenerationStatus": "success",
   "createdAt": 1776132912788,
-  "updatedAt": 1776137733399,
-  "lastResponseAt": 1776137733399,
+  "updatedAt": 1776138115217,
+  "lastResponseAt": 1776138115217,
   "sessionId": "019d89c5-7759-7833-89a0-a310b8041265",
   "providerState": {
     "threadId": "019d89c5-7759-7833-89a0-a310b8041265",
     "sessionFilePath": "/Users/staff/.codex/sessions/2026/04/14/rollout-2026-04-14T10-15-12-019d89c5-7759-7833-89a0-a310b8041265.jsonl",
     "transcriptRootPath": "/Users/staff/.codex/sessions"
   },
-  "currentNote": "mine/前端/obsidian的一些插件.md",
   "usage": {
-    "inputTokens": 20226,
+    "inputTokens": 50007,
     "cacheCreationInputTokens": 0,
-    "cacheReadInputTokens": 2432,
+    "cacheReadInputTokens": 40064,
     "contextWindow": 258400,
     "contextWindowIsAuthoritative": true,
-    "contextTokens": 20226,
-    "percentage": 8,
+    "contextTokens": 50007,
+    "percentage": 19,
     "model": "gpt-5.4"
   }
 }
