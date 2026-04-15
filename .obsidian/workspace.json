@@ -11,10 +11,14 @@
             "id": "ef89ea897170c414",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "raw/mine/生活/可可/兴趣.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "兴趣"
             }
           }
         ]
@@ -152,12 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "raw/mine/生活/可可/兴趣.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "大纲"
+              "title": "兴趣 的大纲"
             }
           },
           {
@@ -191,6 +196,9 @@
   },
   "active": "4ad47bd2f8dc8e7d",
   "lastOpenFiles": [
+    "raw/mine/生活/可可",
+    "raw/mine/生活/可可/动画片.md",
+    "raw/工作",
     "README.md",
     "raw/assets/README",
     "raw/assets",
@@ -217,22 +225,19 @@
     "raw/mine/前端/vue3源码/1框架设计的基本概念/5为什么说框架的设计过程其实是一个不断取舍的过程.md",
     "raw/mine/前端/vue3源码/1框架设计的基本概念/4.企业应用的开发与设计原则.md",
     "raw/mine/前端/vue3源码/1框架设计的基本概念/3命令式 VS 声明式.md",
-    "raw/mine/前端/vue3源码/1框架设计的基本概念/2编程范式之命令式编程.md",
-    "raw/mine/前端/vue3源码/1框架设计的基本概念/1编程范式之声明式编程.md",
-    "raw/mine/七猫/assets/worktree/image-20260325113807649.png",
-    "raw/mine/七猫/assets/worktree/image-20260306172348037.png",
-    "raw/mine/七猫/assets/worktree/image-20260306172348037 1.png",
-    "raw/mine/七猫/assets/worktree/image-20260306172203147.png",
-    "raw/mine/七猫/assets/worktree/image-20260306172203147 1.png",
-    "raw/mine/七猫/assets/worktree/file-20260414200904323.png",
+    "raw/工作/七猫/assets/worktree/image-20260325113807649.png",
+    "raw/工作/七猫/assets/worktree/image-20260306172348037.png",
+    "raw/工作/七猫/assets/worktree/image-20260306172348037 1.png",
+    "raw/工作/七猫/assets/worktree/image-20260306172203147.png",
+    "raw/工作/七猫/assets/worktree/image-20260306172203147 1.png",
+    "raw/工作/七猫/assets/worktree/file-20260414200904323.png",
     "raw/mine/前端/vue3源码/6响应系统 - ref 的响应性",
     "raw/mine/前端/vue3源码/5响应系统 - 初见 reactivity 模块",
     "raw/mine/前端/vue3源码/4响应系统 - 响应系统的核心设计原则",
     "raw/mine/前端/vue3源码/2搭建框架雏形",
     "raw/mine/前端/vue3源码/1框架设计的基本概念",
-    "raw/mine/七猫/assets/问题记录",
-    "raw/mine/七猫/assets/worktree",
-    "raw/mine/前端/vue3源码",
+    "raw/工作/七猫/assets/问题记录",
+    "raw/工作/七猫/assets/worktree",
     "mine/七猫/assets/worktree/image-20260306172348037 1.png",
     "mine/七猫/assets/worktree/image-20260306172203147 1.png",
     "mine/七猫/assets/worktree/image-20260325113807649.png",
