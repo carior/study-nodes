@@ -1,0 +1,24 @@
+{
+  "id": "conv-1776243651675-t8qq34x08",
+  "providerId": "codex",
+  "title": "搭建知识库结构",
+  "titleGenerationStatus": "success",
+  "createdAt": 1776243651675,
+  "updatedAt": 1776244136143,
+  "lastResponseAt": 1776244136143,
+  "sessionId": null,
+  "providerState": {
+    "transcriptRootPath": "/Users/staff/.codex/sessions"
+  },
+  "currentNote": "2026-04-15.md",
+  "usage": {
+    "inputTokens": 21363,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 3456,
+    "contextWindow": 258400,
+    "contextWindowIsAuthoritative": true,
+    "contextTokens": 21363,
+    "percentage": 8,
+    "model": "gpt-5.4"
+  }
+}
