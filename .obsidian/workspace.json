@@ -4,35 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "0950f27024dac67d",
+        "id": "4c820eec83186a9d",
         "type": "tabs",
         "children": [
           {
-            "id": "78f9246c8e593d62",
+            "id": "ef89ea897170c414",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "mine/生活/旅游/宜兴3天2晚.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "宜兴3天2晚"
-            }
-          },
-          {
-            "id": "c41b093112afd272",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "mine/前端/obsidian的一些插件.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "obsidian的一些插件"
+              "title": "新标签页"
             }
           }
         ]
@@ -170,13 +152,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "mine/前端/obsidian的一些插件.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "obsidian的一些插件 的大纲"
+              "title": "大纲"
             }
           },
           {
@@ -208,43 +189,55 @@
       "claudian:Open Claudian": false
     }
   },
-  "active": "78f9246c8e593d62",
+  "active": "4ad47bd2f8dc8e7d",
   "lastOpenFiles": [
-    "mine/前端/obsidian的一些插件.md",
-    "mine/生活/旅游/宜兴3天2晚.md",
-    "mine/前端/Hermes Agent 实测笔记.md",
     "README.md",
+    "raw/assets/README",
+    "raw/assets",
+    "raw/mine/前端/vue3源码/6响应系统 - ref 的响应性/问题指南.md",
+    "raw/mine/前端/vue3源码/5响应系统 - 初见 reactivity 模块/2框架实现：构建 reactive 函数，获取 proxy 实例.md",
+    "raw/mine/前端/vue3源码/5响应系统 - 初见 reactivity 模块/问题指南.md",
+    "raw/mine/前端/vue3源码/5响应系统 - 初见 reactivity 模块/1源码阅读：reactive 的响应性，跟踪 Vue 3 源码实现逻辑.md",
+    "raw/mine/前端/vue3源码/4响应系统 - 响应系统的核心设计原则/7总结.md",
+    "raw/mine/前端/vue3源码/4响应系统 - 响应系统的核心设计原则/6.proxy的最佳拍档：Reflect—拦截 js 对象操作.md",
+    "raw/mine/前端/vue3源码/4响应系统 - 响应系统的核心设计原则/5.vue3的响应性核心 API：proxy.md",
+    "raw/mine/前端/vue3源码/4响应系统 - 响应系统的核心设计原则/4.Object.defineProperty 在设计层的缺陷.md",
+    "raw/mine/前端/vue3源码/4响应系统 - 响应系统的核心设计原则/3.vue 2 的响应性核心 API：Object.defineProperty.md",
+    "raw/mine/前端/vue3源码/4响应系统 - 响应系统的核心设计原则/2.如何让你的程序变得更加“聪明”？.md",
+    "raw/mine/前端/vue3源码/4响应系统 - 响应系统的核心设计原则/1JS 的程序性.md",
+    "raw/mine/前端/vue3源码/1框架设计的基本概念/12.扩展：所谓良好的 TypeScript 支持，是如何提供的？.md",
+    "raw/mine/前端/vue3源码/1框架设计的基本概念/9.运行时 + 编译时.md",
+    "raw/mine/前端/vue3源码/2搭建框架雏形/1vue3源码下载.md",
+    "raw/mine/前端/vue3源码/2搭建框架雏形/2创建测试实例：在 Vue 源码中运行测试实例.md",
+    "raw/mine/前端/vue3源码/1框架设计的基本概念/7什么是运行时.md",
+    "raw/mine/前端/vue3源码/1框架设计的基本概念/8.什么是编译时.md",
+    "raw/mine/前端/vue3源码/1框架设计的基本概念/11Vue 3 框架设计概述.md",
+    "raw/mine/前端/vue3源码/1框架设计的基本概念/10.什么是副作用.md",
+    "raw/mine/前端/vue3源码/1框架设计的基本概念/6.vue 中的 html 是真实的 html 吗.md",
+    "raw/mine/前端/vue3源码/1框架设计的基本概念/5为什么说框架的设计过程其实是一个不断取舍的过程.md",
+    "raw/mine/前端/vue3源码/1框架设计的基本概念/4.企业应用的开发与设计原则.md",
+    "raw/mine/前端/vue3源码/1框架设计的基本概念/3命令式 VS 声明式.md",
+    "raw/mine/前端/vue3源码/1框架设计的基本概念/2编程范式之命令式编程.md",
+    "raw/mine/前端/vue3源码/1框架设计的基本概念/1编程范式之声明式编程.md",
+    "raw/mine/七猫/assets/worktree/image-20260325113807649.png",
+    "raw/mine/七猫/assets/worktree/image-20260306172348037.png",
+    "raw/mine/七猫/assets/worktree/image-20260306172348037 1.png",
+    "raw/mine/七猫/assets/worktree/image-20260306172203147.png",
+    "raw/mine/七猫/assets/worktree/image-20260306172203147 1.png",
+    "raw/mine/七猫/assets/worktree/file-20260414200904323.png",
+    "raw/mine/前端/vue3源码/6响应系统 - ref 的响应性",
+    "raw/mine/前端/vue3源码/5响应系统 - 初见 reactivity 模块",
+    "raw/mine/前端/vue3源码/4响应系统 - 响应系统的核心设计原则",
+    "raw/mine/前端/vue3源码/2搭建框架雏形",
+    "raw/mine/前端/vue3源码/1框架设计的基本概念",
+    "raw/mine/七猫/assets/问题记录",
+    "raw/mine/七猫/assets/worktree",
+    "raw/mine/前端/vue3源码",
+    "mine/七猫/assets/worktree/image-20260306172348037 1.png",
+    "mine/七猫/assets/worktree/image-20260306172203147 1.png",
+    "mine/七猫/assets/worktree/image-20260325113807649.png",
+    "mine/七猫/assets/worktree/image-20260306172348037.png",
     "未命名.canvas",
-    "2026-04-14.md",
-    "未命名文件夹",
-    "mine/七猫/七猫终审弹框逻辑.md",
-    "未命名 1.base",
-    "未命名.base",
-    "mine/生活/旅游/2025旅游计划.md",
-    "mine/生活/旅游/龙之梦2天1晚.md",
-    "mine/七猫/skills/未命名.md",
-    "mine/七猫/skills/流程.md",
-    "mine/七猫/skills/前端工作流精简Skills+飞书文档产出物实操手册.md",
-    "mine/七猫/skills/未命名.canvas",
-    "mine/七猫/skills",
-    "mine/生活/旅游/厦门4天3晚.md",
-    "mine/生活/动画片.md",
-    "mine/生活/旅游",
-    "mine/生活/旅游/露营攻略2.md",
-    "mine/生活/露营攻略.md",
-    "mine/生活/绘本/毛毛虫书籍.md",
-    "mine/生活/兴趣.md",
-    "mine/生活/个人/2026年规划.md",
-    "mine/七猫/worktree.md",
-    "mine/七猫/会议记录.md",
-    "mine/七猫/问题记录.md",
-    "mine/七猫/assets/问题记录/file-20260407194003881.png",
-    "mine/七猫/assets/问题记录",
-    "mine/七猫/assets",
-    "assets/README/file-20260407193952373.png",
-    "assets/README",
-    "assets",
-    "mine/七猫/版权中台.md",
-    "mine/七猫/项目排期计划.md"
+    "mine/七猫/skills/未命名.canvas"
   ]
 }

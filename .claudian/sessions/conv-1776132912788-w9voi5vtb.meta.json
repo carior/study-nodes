@@ -4,22 +4,25 @@
   "title": "Explain model identity",
   "titleGenerationStatus": "success",
   "createdAt": 1776132912788,
-  "updatedAt": 1776138115217,
-  "lastResponseAt": 1776138115217,
+  "updatedAt": 1776242552007,
+  "lastResponseAt": 1776242552007,
   "sessionId": "019d89c5-7759-7833-89a0-a310b8041265",
   "providerState": {
     "threadId": "019d89c5-7759-7833-89a0-a310b8041265",
     "sessionFilePath": "/Users/staff/.codex/sessions/2026/04/14/rollout-2026-04-14T10-15-12-019d89c5-7759-7833-89a0-a310b8041265.jsonl",
     "transcriptRootPath": "/Users/staff/.codex/sessions"
   },
+  "externalContextPaths": [
+    "/Users/staff/Documents/study-nodes"
+  ],
   "usage": {
-    "inputTokens": 50007,
+    "inputTokens": 51029,
     "cacheCreationInputTokens": 0,
-    "cacheReadInputTokens": 40064,
+    "cacheReadInputTokens": 50944,
     "contextWindow": 258400,
     "contextWindowIsAuthoritative": true,
-    "contextTokens": 50007,
-    "percentage": 19,
+    "contextTokens": 51029,
+    "percentage": 20,
     "model": "gpt-5.4"
   }
 }

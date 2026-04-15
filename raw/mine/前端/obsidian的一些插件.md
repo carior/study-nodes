@@ -9,7 +9,10 @@ aliases:
   - Obsidian 插件整理
   - 前端开发者的 Obsidian 插件
 ---
-
+几个问题：
+1. obsidian知识库怎么搭建
+2. obsidian如何做读书笔记
+3. Obsidian、Claude Code、OpenClaw如何串联在一起
 # Obsidian 插件与工具整理
 
 > [!abstract]
