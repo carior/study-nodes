@@ -11,10 +11,10 @@
             "id": "40a5c8429b1c86e4",
             "type": "leaf",
             "state": {
-              "type": "empty",
+              "type": "graph",
               "state": {},
-              "icon": "lucide-file",
-              "title": "新标签页"
+              "icon": "lucide-git-fork",
+              "title": "关系图谱"
             }
           },
           {
@@ -31,8 +31,7 @@
               "title": "AGENTS"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -167,13 +166,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "AGENTS.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "AGENTS 的大纲"
+              "title": "大纲"
             }
           },
           {
@@ -205,10 +203,10 @@
       "claudian:Open Claudian": false
     }
   },
-  "active": "50299f588ecfe7ac",
+  "active": "40a5c8429b1c86e4",
   "lastOpenFiles": [
-    "2026-04-15.md",
     "AGENTS.md",
+    "2026-04-15.md",
     "wiki/index.md",
     "wiki/log.md",
     "wiki/00-总览/知识库总览.md",
