@@ -1,0 +1,7 @@
+[     850ms] [LOG] %c [MONITOR SDK] %c 此浏览器支持 PerformanceObserver Api，将使用高版本API color: orange; color: green; @ https://cdn-front.qimao.com/zuozhe-platform/web/js/npm.sentry.d0124834.js:0
+[     851ms] [LOG] %c [MONITOR SDK] %c 初始化CLS性能插件 color: orange; color: green; @ https://cdn-front.qimao.com/zuozhe-platform/web/js/npm.sentry.d0124834.js:0
+[     851ms] [LOG] %c [MONITOR SDK] %c 初始化FID性能插件 color: orange; color: green; @ https://cdn-front.qimao.com/zuozhe-platform/web/js/npm.sentry.d0124834.js:0
+[     851ms] [LOG] %c [MONITOR SDK] %c 初始化FCP性能插件 color: orange; color: green; @ https://cdn-front.qimao.com/zuozhe-platform/web/js/npm.sentry.d0124834.js:0
+[     851ms] [LOG] %c [MONITOR SDK] %c 初始化LCP性能插件 color: orange; color: green; @ https://cdn-front.qimao.com/zuozhe-platform/web/js/npm.sentry.d0124834.js:0
+[     851ms] [LOG] %c [MONITOR SDK] %c 初始化资源监听性能插件 color: orange; color: green; @ https://cdn-front.qimao.com/zuozhe-platform/web/js/npm.sentry.d0124834.js:0
+[     851ms] [LOG] %c [MONITOR SDK] %c 初始化导航监听性能插件 color: orange; color: green; @ https://cdn-front.qimao.com/zuozhe-platform/web/js/npm.sentry.d0124834.js:0

@@ -1,0 +1,16 @@
+{
+  "id": "conv-1776332954471-k7mffli7t",
+  "providerId": "codex",
+  "title": "如果我要完成这个目标我要做哪些准备呢？我是一个前端开发人员，没有服务端的基础。",
+  "titleGenerationStatus": "failed",
+  "createdAt": 1776332954472,
+  "updatedAt": 1776337810802,
+  "lastResponseAt": 1776337810802,
+  "sessionId": "019d95b1-dc17-7ab1-af85-358ef3aae124",
+  "providerState": {
+    "threadId": "019d95b1-dc17-7ab1-af85-358ef3aae124",
+    "sessionFilePath": "/Users/staff/.codex/sessions/2026/04/16/rollout-2026-04-16T17-49-14-019d95b1-dc17-7ab1-af85-358ef3aae124.jsonl",
+    "transcriptRootPath": "/Users/staff/.codex/sessions"
+  },
+  "currentNote": "raw/mine/Go语言基础/go.md"
+}

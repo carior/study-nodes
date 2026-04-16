@@ -1,21 +1,23 @@
 {
   "id": "conv-1776133387859-3rr6xw6tp",
   "providerId": "claude",
-  "title": "Defuddle WeChat article",
+  "title": "Explain AI model identity",
   "titleGenerationStatus": "success",
   "createdAt": 1776133387859,
-  "updatedAt": 1776133897317,
-  "lastResponseAt": 1776133897317,
-  "sessionId": null,
-  "providerState": {},
-  "currentNote": "mine/前端/obsidian的一些插件.md",
+  "updatedAt": 1776338966420,
+  "lastResponseAt": 1776338966420,
+  "sessionId": "1f4d2f54-5821-4d9b-bf75-1ecdfe08b813",
+  "providerState": {
+    "providerSessionId": "1f4d2f54-5821-4d9b-bf75-1ecdfe08b813"
+  },
   "usage": {
     "model": "sonnet",
-    "inputTokens": 2797,
+    "inputTokens": 63267,
     "cacheCreationInputTokens": 0,
-    "cacheReadInputTokens": 17736,
+    "cacheReadInputTokens": 18885,
     "contextWindow": 200000,
-    "contextTokens": 20533,
-    "percentage": 10
+    "contextTokens": 82152,
+    "percentage": 41,
+    "contextWindowIsAuthoritative": true
   }
 }

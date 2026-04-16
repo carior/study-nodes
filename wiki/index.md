@@ -2,7 +2,7 @@
 title: Wiki Index
 type: meta
 created: 2026-04-15
-updated: 2026-04-15
+updated: 2026-04-16
 tags:
   - llm-wiki
   - index
@@ -27,6 +27,11 @@ tags:
 
 - [[wiki/30-来源/来源总表]] —— `raw/` 中全部 Markdown 来源的可摄取清单。
 - [[wiki/30-来源/来源摄取计划]] —— 领域优先级与首批建议摄取顺序。
+- [[wiki/30-来源/来源摘要-2026-04-15-LLM Wiki]] —— LLM Wiki 原文来源摘要（2026-04-15）。
+
+## 主题
+
+- [[wiki/10-主题/LLM Wiki模式]] —— ⭐ 知识管理方法论：LLM Wiki 模式详解，含架构、操作与适用场景。
 
 ## 页面容器 / 说明
 

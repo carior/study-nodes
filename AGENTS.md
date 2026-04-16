@@ -122,6 +122,111 @@
 - 避免把同一段长总结复制到多个页面；应以链接代替重复
 - 保持页面可持续更新，而不是一次性“聊天纪要风格”页面
 
+## 10. Obsidian 工具链建议
+
+以下工具可提升 LLM Wiki 的维护效率，**按需引入，规模小时可跳过**。
+
+### Obsidian Web Clipper（必装）
+
+浏览器扩展，将网页文章直接转为 Markdown 存入 vault。
+
+> [!tip] 使用方法
+> 1. 安装 Obsidian Web Clipper 扩展
+> 2. 配置 vault 路径和默认保存位置（建议 `raw/web-clips/`）
+> 3. 剪藏文章后，用 LLM 处理来源（Ingest）
+
+### 图片本地化（推荐）
+
+1. 设置 → Files & Links → Attachment folder path → 固定目录（如 `raw/assets/`）
+2. 设置 → Hotkeys → 搜索 "Download" → 绑定快捷键（如 `Ctrl+Shift+D`）
+3. 剪藏文章后，按快捷键下载所有图片到本地
+
+> [!warning] LLM 读取含图片的笔记
+> LLM 无法在一次传递中同时读文本和内嵌图片。正确方式是：先读文本，再单独读取图片文件获取视觉信息。
+
+### Graph View（图谱视图）
+
+`Obsidian 左侧边栏 → Graph View`
+
+用于查看知识库结构：
+- **Hub 页面**：连接数多的页面，是核心主题
+- **孤儿页面**：没有任何入链的页面，需要补充连接或考虑删除
+- **聚类**：相关的页面自然聚集，可发现未知的关联
+
+> [!tip] 定期查看 Graph View
+> 每月打开一次，识别孤儿页和新出现的 Hub，主动维护链接结构。
+
+### Dataview（条件必装）
+
+Obsidian 插件，通过 frontmatter 属性查询生成动态列表和表格。
+
+> [!example] 用法示例
+> 在任意笔记中插入 Dataview 查询块：
+> ```dataview
+> TABLE source_count, status
+> FROM "wiki/30-来源"
+> WHERE type = "source-summary"
+> SORT updated DESC
+> ```
+> 可生成来源摄取进度的动态看板。
+
+### Marp（可选）
+
+Markdown 幻灯片格式，Obsidian 有 Marp 插件支持。
+
+> [!example] 用法示例
+> ```markdown
+> ---
+> marp: true
+> ---
+> # 标题页
+> ## 内容
+> ```
+> 可将 wiki 内容直接生成为演示文稿。
+
+---
+
+## 11. CLI 工具（规模增长后引入）
+
+当 wiki 规模增长到 ~100+ 来源、几百个页面时，index.md 不够用了，需要搜索工具。
+
+### qmd（推荐）
+
+本地 Markdown 搜索引擎，支持 BM25 + 向量混合搜索 + LLM 重排，全本地运行。
+
+- **GitHub**：https://github.com/tobi/qmd
+- **CLI 模式**：LLM 可直接 shell 调用
+- **MCP 模式**：作为 Obsidian MCP 工具使用
+
+> [!tip] 何时引入
+> 当 index.md 搜索开始变慢，或 Graph View 显示 Hub 变得很乱时。
+
+### 临时搜索脚本
+
+规模不大时，可以让 LLM vibe-code 一个简单脚本：
+
+```bash
+# 按文件名搜索
+grep -r "keyword" raw/ wiki/ --include="*.md"
+
+# 按标题搜索（需要 frontmatter）
+grep -r "^title:" raw/ wiki/ --include="*.md"
+```
+
+---
+
+## 12. 为什么 Wiki 维护成本接近零
+
+> [!success] 核心原理
+> 维护知识库最累人的部分不是阅读或思考，而是**整理**：更新交叉引用、保持摘要最新、标记新旧矛盾、维持多页面一致性。人类放弃 wiki 是因为维护负担增长比价值更快。LLM 不会厌倦、不会忘记更新交叉引用，**一次能改 15 个文件**。维护成本接近零，wiki 就能持续维护。
+
+**人类的职责**：筛选来源、引导分析、提问、判断意义
+**LLM 的职责**：所有繁琐的归纳、交叉引用、整理和记录工作
+
+这与 Vannevar Bush 的 **Memex**（1945）精神相近：个人策划的知识库，文档间有联想路径。Bush 无法解决的是"谁来维护"。LLM 解决了这个问题。
+
+---
+
 ## 10. 当前知识域
 
 当前原始资料共 **81** 篇 Markdown 来源，主要分布在：
