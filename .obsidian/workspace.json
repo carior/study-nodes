@@ -4,24 +4,95 @@
     "type": "split",
     "children": [
       {
-        "id": "3761ad5fac250643",
+        "id": "57cbb7d28fa8e5c4",
         "type": "tabs",
         "children": [
           {
-            "id": "6af9d63bd4a34836",
+            "id": "a5f51b07bd17f0d1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "raw/mine/Go语言基础/00_学习路线图.md",
+                "file": "raw/mine/Go语言基础/七猫春招go学习路线.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "00_学习路线图"
+              "title": "七猫春招go学习路线"
+            }
+          },
+          {
+            "id": "a9f65b9a492fcc11",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "wiki/30-来源/来源摘要-七猫春招go学习路线.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "来源摘要-七猫春招go学习路线"
+            }
+          },
+          {
+            "id": "3d3552b58efccede",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "wiki/30-来源/来源摘要-七猫春招go学习路线.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "来源摘要-七猫春招go学习路线"
+            }
+          },
+          {
+            "id": "e5ac76f3334248b5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "AGENTS.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "AGENTS"
+            }
+          },
+          {
+            "id": "25ab73ed19e461b7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "wiki/30-来源/来源整理-七猫春招go学习路线.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "来源整理-七猫春招go学习路线"
+            }
+          },
+          {
+            "id": "6ff0b2c600bdb486",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "wiki/30-来源/来源摘要-七猫春招go学习路线.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "来源摘要-七猫春招go学习路线"
             }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -156,13 +227,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "raw/mine/Go语言基础/00_学习路线图.md",
+                "file": "wiki/30-来源/来源摘要-七猫春招go学习路线.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "00_学习路线图 的大纲"
+              "title": "来源摘要-七猫春招go学习路线 的大纲"
             }
           },
           {
@@ -194,55 +265,55 @@
       "claudian:Open Claudian": false
     }
   },
-  "active": "6af9d63bd4a34836",
+  "active": "6ff0b2c600bdb486",
   "lastOpenFiles": [
-    "raw/mine/Go语言基础/go.md",
-    "raw/mine/Go语言基础/00_学习路线图.md",
-    "2026-04-15.md",
-    "wiki/30-来源/来源摘要-2026-04-15-LLM-Wiki.md",
-    "wiki/10-主题/LLM Wiki模式.md",
-    "raw/mine/Go语言基础/本项目前端本地开发指南.md",
+    "wiki/30-来源/来源整理-七猫春招go学习路线.md",
     "AGENTS.md",
+    "raw/mine/Go语言基础/七猫春招go学习路线.md",
+    "raw/mine/Go语言基础/go.md",
+    "raw/mine/生活/旅游/宜兴3天2晚.md",
+    "raw/mine/生活/旅游/厦门4天3晚.md",
+    "wiki/30-来源/来源摘要-七猫春招go学习路线.md",
     "raw/mine/Go语言基础/运行服务端代码.md",
-    "raw/mine/Go语言基础/09_项目实战_短链接服务.md",
-    "raw/mine/Go语言基础/08_项目实战_TodoAPI.md",
-    "raw/mine/Go语言基础/07_Gin框架入门.md",
-    "raw/mine/Go语言基础/06_HTTP与接口基础.md",
-    "raw/mine/Go语言基础/05_结构体与接口.md",
+    "raw/mine/Go语言基础/02_基础语法速查.md",
+    "raw/mine/Go语言基础/00_学习路线图.md",
+    "raw/mine/Go语言基础/assets/七猫春招go学习路线",
     "raw/mine/Go语言基础/04_函数与错误处理.md",
     "raw/mine/Go语言基础/03_数据类型.md",
-    "raw/mine/Go语言基础/02_基础语法速查.md",
     "raw/mine/Go语言基础/01_环境搭建.md",
-    "raw/mine/前端/tailwindcss.md",
-    "raw/mine/Go语言基础",
-    "raw/mine/前端/vue-vben-admin.md",
-    "raw/mine/前端/obsidian的一些插件.md",
-    "厨房 SOP.md",
-    "raw/工作/七猫/worktree.md",
+    "raw/mine/Go语言基础/本项目前端本地开发指南.md",
+    "raw/mine/Go语言基础/assets/七猫春招go学习路线/file-20260420200039065.png",
+    "raw/mine/Go语言基础/assets/七猫春招go学习路线/file-20260420200011169.png",
+    "raw/mine/Go语言基础/assets/七猫春招go学习路线/file-20260420195942734.png",
+    "raw/mine/Go语言基础/assets/七猫春招go学习路线/file-20260420195852419.png",
+    "raw/mine/Go语言基础/assets/未命名",
+    "raw/mine/Go语言基础/assets",
     "raw/工作/七猫/项目排期计划.md",
-    "raw/工作/七猫/skills/未命名.md",
-    "raw/mine/前端/vue3源码/4响应系统 - 响应系统的核心设计原则/6.proxy的最佳拍档：Reflect—拦截 js 对象操作.md",
-    "raw/mine/AI 原生开发工作流实战/0.重新定义软件工程师的每一天.md",
+    "raw/工作/七猫/worktree.md",
+    "raw/工作/七猫/作家账号.md",
+    "raw/工作/七猫/问题记录.md",
+    "raw/工作/七猫/七猫终审弹框逻辑.md",
+    "raw/工作/七猫/skills/流程.md",
+    "raw/工作/七猫/skills/前端工作流精简Skills+飞书文档产出物实操手册.md",
+    "wiki/00-总览/领域地图-生活-旅游.md",
+    "wiki/00-总览/领域地图-生活-可可.md",
+    "wiki/00-总览/领域地图-前端.md",
+    "wiki/00-总览/领域地图-工作-七猫.md",
+    "raw/mine/生活/旅游/迪士尼.md",
+    "raw/mine/Go语言基础",
     "wiki/90-模板",
     "wiki/40-问答沉淀",
     "wiki/30-来源",
     "wiki/20-实体",
     "wiki/10-主题",
     "wiki/00-总览",
-    "wiki",
     "未命名.canvas",
-    "raw/mine/生活/可可",
-    "raw/工作",
     "raw/工作/七猫/assets/worktree/image-20260325113807649.png",
     "raw/工作/七猫/assets/worktree/image-20260306172348037.png",
     "raw/工作/七猫/assets/worktree/image-20260306172348037 1.png",
     "raw/工作/七猫/assets/worktree/image-20260306172203147.png",
     "raw/工作/七猫/assets/worktree/image-20260306172203147 1.png",
     "raw/工作/七猫/assets/worktree/file-20260414200904323.png",
-    "mine/七猫/assets/worktree/image-20260306172348037 1.png",
-    "mine/七猫/assets/worktree/image-20260306172203147 1.png",
-    "mine/七猫/assets/worktree/image-20260325113807649.png",
-    "mine/七猫/assets/worktree/image-20260306172348037.png",
     "mine/七猫/skills/未命名.canvas"
   ]
 }

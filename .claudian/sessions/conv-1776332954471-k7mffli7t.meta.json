@@ -4,13 +4,22 @@
   "title": "如果我要完成这个目标我要做哪些准备呢？我是一个前端开发人员，没有服务端的基础。",
   "titleGenerationStatus": "failed",
   "createdAt": 1776332954472,
-  "updatedAt": 1776337810802,
-  "lastResponseAt": 1776337810802,
+  "updatedAt": 1776933425593,
+  "lastResponseAt": 1776933425593,
   "sessionId": "019d95b1-dc17-7ab1-af85-358ef3aae124",
   "providerState": {
     "threadId": "019d95b1-dc17-7ab1-af85-358ef3aae124",
     "sessionFilePath": "/Users/staff/.codex/sessions/2026/04/16/rollout-2026-04-16T17-49-14-019d95b1-dc17-7ab1-af85-358ef3aae124.jsonl",
     "transcriptRootPath": "/Users/staff/.codex/sessions"
   },
-  "currentNote": "raw/mine/Go语言基础/go.md"
+  "usage": {
+    "inputTokens": 50679,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 15744,
+    "contextWindow": 258400,
+    "contextWindowIsAuthoritative": true,
+    "contextTokens": 50679,
+    "percentage": 20,
+    "model": "gpt-5.4-mini"
+  }
 }
