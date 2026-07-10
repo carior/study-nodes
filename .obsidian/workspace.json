@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "raw/工作/七猫服务端/shenhe.km.com.md",
+                "file": "raw/mine/生活/旅游/桐庐3天2晚.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "shenhe.km.com"
+              "title": "桐庐3天2晚"
             }
           }
         ]
@@ -197,11 +197,14 @@
   },
   "active": "fffedd3c208042ad",
   "lastOpenFiles": [
+    "raw/mine/生活/旅游/2025旅游计划.md",
+    "raw/mine/生活/旅游/桐庐3天2晚.md",
+    "raw/mine/生活/旅游/2026.05.01计划.md",
+    "raw/工作/七猫服务端/shenhe.km.com.md",
     "raw/mine/前端/electron/Untitled.md",
     "raw/mine/前端/electron",
     "raw/工作/七猫服务端/adminhelper.md",
     "raw/工作/七猫服务端/服务端怎么上线.md",
-    "raw/工作/七猫服务端/shenhe.km.com.md",
     "raw/工作/七猫服务端/platform-copyright.md",
     "raw/mine/生活/可可/绘本/毛毛虫书籍.md",
     "raw/工作/七猫/会议记录.md",
@@ -239,9 +242,6 @@
     "raw/mine/Go语言基础/go.md",
     "raw/mine/Go语言基础/assets/运行服务端代码",
     "raw/mine/Go语言基础/00_学习路线图.md",
-    "raw/mine/Go语言基础/09_项目实战_短链接服务.md",
-    "raw/mine/Go语言基础/08_项目实战_TodoAPI.md",
-    "raw/mine/Go语言基础/07_Gin框架入门.md",
     "raw/mine/Go语言基础/assets/七猫春招go学习路线",
     "未命名.canvas",
     "mine/七猫/skills/未命名.canvas"
