@@ -5,6 +5,10 @@
 终端1执行：
 
 `git worktree add .worktrees/对公签约结算 feature/对公益约结算线上化`
+已有分支
+`git worktree add .worktrees/作家勋章体系 feature/作家勋章体系`
+还没创建分支
+`git worktree add -b feature/作家勋章版本3 .worktrees/作家勋章版本3`
 
 终端2执行：
 

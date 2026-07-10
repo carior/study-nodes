@@ -1,0 +1,26 @@
+{
+  "id": "conv-1780454727913-zsddmpupm",
+  "providerId": "claude",
+  "title": "你是什么模型",
+  "titleGenerationStatus": "failed",
+  "createdAt": 1780454727913,
+  "updatedAt": 1780457023545,
+  "lastResponseAt": 1780457023544,
+  "sessionId": "6c0560ce-8f47-4b6b-817e-c5e94c13b974",
+  "providerState": {
+    "providerSessionId": "6c0560ce-8f47-4b6b-817e-c5e94c13b974",
+    "previousProviderSessionIds": [
+      "3ce9c8fe-e4b5-4318-81a9-e2f0acf90a8d"
+    ]
+  },
+  "usage": {
+    "model": "qwen3.7-max",
+    "inputTokens": 24492,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 0,
+    "contextWindow": 200000,
+    "contextTokens": 24492,
+    "percentage": 12,
+    "contextWindowIsAuthoritative": true
+  }
+}

@@ -4,15 +4,14 @@
   "title": "优化当前文档",
   "titleGenerationStatus": "success",
   "createdAt": 1777452172481,
-  "updatedAt": 1777452220974,
-  "lastResponseAt": 1777452220974,
+  "updatedAt": 1780454898912,
+  "lastResponseAt": 1780454343705,
   "sessionId": "019dd867-c583-7102-892f-a8dd9b29c625",
   "providerState": {
     "threadId": "019dd867-c583-7102-892f-a8dd9b29c625",
     "sessionFilePath": "/Users/staff/.codex/sessions/2026/04/29/rollout-2026-04-29T16-42-52-019dd867-c583-7102-892f-a8dd9b29c625.jsonl",
     "transcriptRootPath": "/Users/staff/.codex/sessions"
   },
-  "currentNote": "raw/mine/生活/旅游/2026.05.01计划.md",
   "usage": {
     "inputTokens": 21613,
     "cacheCreationInputTokens": 0,
