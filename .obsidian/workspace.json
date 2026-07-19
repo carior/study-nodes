@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "raw/mine/生活/可可/绘本/牛津树/L1-13.md",
+                "file": "raw/mine/生活/可可/小学怎么上.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "L1-13"
+              "title": "小学怎么上"
             }
           }
         ]
@@ -171,8 +171,8 @@
             "state": {
               "type": "claudian-view",
               "state": {},
-              "icon": "bot",
-              "title": "Claudian"
+              "icon": "lucide-ghost",
+              "title": "claudian-view"
             }
           }
         ],
@@ -197,6 +197,10 @@
   },
   "active": "f5e9e3a59c07b8d6",
   "lastOpenFiles": [
+    "raw/mine/生活/可可/兴趣.md",
+    "raw/mine/生活/可可/小学怎么上.md",
+    "raw/mine/生活/可可/教育.md",
+    "raw/mine/生活/可可/绘本/牛津树/L1-13.md",
     "raw/mine/生活/可可/学习/2-3岁练习册.md",
     "raw/工作/七猫服务端/shenhe.km.com.md",
     "raw/工作/七猫/绩效/日常需求梳理.md",
@@ -207,9 +211,7 @@
     "raw/工作/七猫/skills/流程.md",
     "raw/工作/七猫/会议记录.md",
     "raw/mine/生活/可可/绘本/绘本.md",
-    "raw/mine/生活/可可/绘本/牛津树/L1-13.md",
     "raw/mine/生活/可可/学习/幼儿园.md",
-    "raw/mine/生活/可可/教育.md",
     "raw/mine/生活/可可/学习",
     "raw/mine/生活/旅游/2025旅游计划.md",
     "raw/mine/生活/旅游/厦门4天3晚.md",
@@ -221,11 +223,9 @@
     "raw/工作/七猫服务端/platform-copyright.md",
     "raw/mine/生活/可可/绘本/毛毛虫书籍.md",
     "raw/工作/七猫/问题记录.md",
-    "raw/mine/生活/可可/兴趣.md",
     "raw/mine/生活/可可/动画片.md",
     "raw/mine/生活/可可/绘本/动画看哪些.md",
     "raw/mine/生活/可可/绘本/彩虹兔.md",
-    "raw/工作/七猫/项目排期计划.md",
     "raw/工作/七猫服务端/assets/shenhe.km.com/file-20260629104526773.png",
     "raw/工作/七猫服务端/assets/shenhe.km.com/file-20260626175655082.png",
     "raw/工作/七猫服务端/assets/shenhe.km.com/file-20260624180059174.png",
