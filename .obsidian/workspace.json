@@ -8,20 +8,35 @@
         "type": "tabs",
         "children": [
           {
-            "id": "f5e9e3a59c07b8d6",
+            "id": "4c2088c5a394c577",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "raw/mine/生活/可可/托班/入学准本.md",
+                "file": "raw/工作/七猫/项目排期计划.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "入学准本"
+              "title": "项目排期计划"
+            }
+          },
+          {
+            "id": "baa4fbd1574525a2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "raw/mine/生活/旅游/安吉北川村1日游.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "安吉北川村1日游"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -156,13 +171,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "raw/mine/生活/可可/托班/入学准本.md",
+                "file": "raw/mine/生活/旅游/安吉北川村1日游.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "入学准本 的大纲"
+              "title": "安吉北川村1日游 的大纲"
             }
           },
           {
@@ -176,7 +191,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -195,16 +210,18 @@
       "claudian:Open Claudian": false
     }
   },
-  "active": "f5e9e3a59c07b8d6",
+  "active": "baa4fbd1574525a2",
   "lastOpenFiles": [
+    "raw/工作/七猫/项目排期计划.md",
+    "raw/mine/生活/旅游/安吉北川村1日游.md",
+    "raw/工作/七猫/会议记录.md",
+    "raw/mine/生活/可可/托班/入学准本.md",
     "raw/mine/生活/可可/小学怎么上.md",
     "raw/mine/生活/可可/学习/2-3岁练习册.md",
     "raw/mine/生活/可可/学习/幼儿园.md",
     "raw/mine/生活/可可/动画片.md",
     "raw/mine/生活/可可/兴趣.md",
     "raw/mine/生活/可可/教育.md",
-    "raw/mine/生活/可可/托班/入学准本.md",
-    "raw/工作/七猫/项目排期计划.md",
     "raw/mine/生活/可可/托班",
     "raw/mine/生活/可可/绘本/牛津树/L1-13.md",
     "raw/工作/七猫服务端/shenhe.km.com.md",
@@ -214,7 +231,6 @@
     "raw/工作/七猫/skills/前端工作流精简Skills+飞书文档产出物实操手册.md",
     "raw/工作/七猫/绩效",
     "raw/工作/七猫/skills/流程.md",
-    "raw/工作/七猫/会议记录.md",
     "raw/mine/生活/可可/绘本/绘本.md",
     "raw/mine/生活/可可/学习",
     "raw/mine/生活/旅游/2025旅游计划.md",
@@ -226,7 +242,6 @@
     "raw/工作/七猫服务端/服务端怎么上线.md",
     "raw/工作/七猫服务端/platform-copyright.md",
     "raw/mine/生活/可可/绘本/毛毛虫书籍.md",
-    "raw/工作/七猫/问题记录.md",
     "raw/工作/七猫服务端/assets/shenhe.km.com/file-20260629104526773.png",
     "raw/工作/七猫服务端/assets/shenhe.km.com/file-20260626175655082.png",
     "raw/工作/七猫服务端/assets/shenhe.km.com/file-20260624180059174.png",
