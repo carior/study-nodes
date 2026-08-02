@@ -2,7 +2,7 @@
   "userName": "",
   "permissionMode": "yolo",
   "model": "qwen3.7-max",
-  "thinkingBudget": "medium",
+  "thinkingBudget": "high",
   "effortLevel": "high",
   "serviceTier": "default",
   "enableAutoTitleGeneration": true,
@@ -61,7 +61,7 @@
     "codex": "default"
   },
   "savedProviderThinkingBudget": {
-    "claude": "medium",
+    "claude": "high",
     "codex": "off"
   },
   "lastCustomModel": "qwen3.7-max",
