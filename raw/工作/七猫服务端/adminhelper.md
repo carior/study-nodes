@@ -2,13 +2,13 @@
 
 ## 关系型 / 分析库（MySQL 协议）
 
-| 配置项 | 库名（测试环境） | 代码包 | 主要用途 |
-|--------|------------------|--------|----------|
-| `original_platform_mysql` | `original_platform` | `mysql_platform` | **核心业务库**：后台账号/权限、组织架构、作者账号与作品、审核提醒、活动、资源库、导出配置、列权限等 |
-| `original_copyright_mysql` | `platform_copyright` | `mysql_wutong`（目录名易误导） | **版权/CP 库**：`reader_cp`、`reader_cp_book` 等，书籍服务里查 CP、授权、对接信息 |
-| `original_platform_adb` | `original_platform`（ADB 只读） | `adb` | **分析型只读副本**：测书统计、签约信息、分类、免费书关系等重查询/报表类数据 |
-| `original_wutong_mysql` | `original_wutong` | — | **已配置客户端，当前无 Repository 接入**（wire 里也未注入业务层） |
-| `bigdata_star_rocks` | `edw_dwt` | `starrocks` | **数仓 StarRocks**：`dwt_book_qm_book_topic_acc_d` 等测书主题汇总；**有实现但未加入 admin/openapi/consumer 的 wire**，运行时基本未用 |
+| 配置项                        | 库名（测试环境）                    | 代码包                    | 主要用途                                                                                                      |
+| -------------------------- | --------------------------- | ---------------------- | --------------------------------------------------------------------------------------------------------- |
+| `original_platform_mysql`  | `original_platform`         | `mysql_platform`       | **核心业务库**：后台账号/权限、组织架构、作者账号与作品、审核提醒、活动、资源库、导出配置、列权限等                                                      |
+| `original_copyright_mysql` | `platform_copyright`        | `mysql_wutong`（目录名易误导） | **版权/CP 库**：`reader_cp`、`reader_cp_book` 等，书籍服务里查 CP、授权、对接信息                                              |
+| `original_platform_adb`    | `original_platform`（ADB 只读） | `adb`                  | **分析型只读副本**：测书统计、签约信息、分类、免费书关系等重查询/报表类数据                                                                  |
+| `original_wutong_mysql`    | `original_wutong`           | —                      | **已配置客户端，当前无 Repository 接入**（wire 里也未注入业务层）                                                               |
+| `bigdata_star_rocks`       | `edw_dwt`                   | `starrocks`            | **数仓 StarRocks**：`dwt_book_qm_book_topic_acc_d` 等测书主题汇总；**有实现但未加入 admin/openapi/consumer 的 wire**，运行时基本未用 |
 
 ### 1. `original_platform_mysql`（主库）
 

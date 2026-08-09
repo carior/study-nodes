@@ -12,8 +12,24 @@
 - authorize_type： 授权类型配置表
 - repeated： 是 Protocol Buffers（protobuf） 里的关键字，表示这个字段是 数组 / 列表，可以出现 0 个、1 个或多个 同类型元素。
 - optional：
+### 总结对比表
+| 对象 | 全称 | 主要战场 | 能不能带业务逻辑？ | 和数据库表一致吗？ |
+|---|---|---|---|---|
+| VO | View Object / Value Object | Service / Domain 层，面向页面展示或内部查询结果 | 通常不能（以数据组合、展示转换为主） | 不一定，按页面/业务视图设计 |
+| PO | Persistent Object | DAO / Repo 层（数据库交互） | 不能（纯数据） | 通常一致 |
+| DO | Domain Object | Domain Service 层（业务逻辑） | 能（包含方法） | 不一定，按业务来 |
+| DTO | Data Transfer Object | Controller / 接口层（传输） | 不能（纯数据） | 完全无关，按前端来 |
 
-下面用 `/api/copyright/authorize/type/update` 做例子，给你一套**从前端请求反查后端**的通用读代码方法。这个接口链路比较短，很适合入门。
+口诀可以补成：
+
+```text
+PO 跟着数据库走，
+DTO 跟着前端走，
+DO 跟着业务走，
+VO 跟着页面展示走。
+```
+
+补充：`VO` 在不同团队里可能指 `View Object` 或 `Value Object`。这个项目的 `entity/vo/profit_overview.go` 更接近“查询/展示用的视图对象”，它把月份范围、平台、合作方等数据组合起来，既不直接对应请求 DTO，也不直接对应某一张数据库表。
 
 ---
 
