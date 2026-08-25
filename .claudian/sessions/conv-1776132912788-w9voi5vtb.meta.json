@@ -6,12 +6,7 @@
   "createdAt": 1776132912788,
   "updatedAt": 1776243516998,
   "lastResponseAt": 1776242552007,
-  "sessionId": "019d89c5-7759-7833-89a0-a310b8041265",
-  "providerState": {
-    "threadId": "019d89c5-7759-7833-89a0-a310b8041265",
-    "sessionFilePath": "/Users/staff/.codex/sessions/2026/04/14/rollout-2026-04-14T10-15-12-019d89c5-7759-7833-89a0-a310b8041265.jsonl",
-    "transcriptRootPath": "/Users/staff/.codex/sessions"
-  },
+  "sessionId": null,
   "externalContextPaths": [
     "/Users/staff/Documents/study-nodes"
   ],

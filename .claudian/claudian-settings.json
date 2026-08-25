@@ -40,8 +40,8 @@
       "cliPath": "",
       "cliPathsByHost": {},
       "reasoningSummary": "detailed",
-      "environmentVariables": "OPENAI_API_KEY=\"cg_b6c19ecf4b94b200e406e2b03289148f9c3e7b73e24c1724\"\nOPENAI_BASE_URL= \"https://apitokenzz.xyz/v1\"\nOPENAI_MODEL= \"gpt-5.4\"",
-      "environmentHash": "OPENAI_API_KEY=cg_b6c19ecf4b94b200e406e2b03289148f9c3e7b73e24c1724|OPENAI_BASE_URL=https://apitokenzz.xyz/v1|OPENAI_MODEL=gpt-5.4",
+      "environmentVariables": "OPENAI_API_KEY=\"cg_b6c19ecf4b94b200e406e2b03289148f9c3e7b73e24c1724\"\nOPENAI_BASE_URL= \"https://apitokenzz.xyz/v1\"\nOPENAI_MODEL= \"gpt-5.6\"",
+      "environmentHash": "OPENAI_API_KEY=cg_b6c19ecf4b94b200e406e2b03289148f9c3e7b73e24c1724|OPENAI_BASE_URL=https://apitokenzz.xyz/v1|OPENAI_MODEL=gpt-5.6",
       "installationMethodsByHost": {
         "mac.local": "native-windows"
       },
@@ -51,7 +51,7 @@
   "settingsProvider": "claude",
   "savedProviderModel": {
     "claude": "qwen3.7-max",
-    "codex": "gpt-5.4-mini"
+    "codex": "gpt-5.6"
   },
   "savedProviderEffort": {
     "claude": "high",

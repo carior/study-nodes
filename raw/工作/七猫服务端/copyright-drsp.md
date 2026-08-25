@@ -326,3 +326,123 @@ profitDomainService.BuildProfitOverview
 profitDomainService.BuildProfitMonthlyItems
 
 为什么要新增这两个方法呢？而不是在原来的方法上改造
+
+这个项目可以按请求链路分成下面几层：
+
+```
+前端页面
+  ↓
+HTTP 路由 / 中间件层
+  ↓
+Service 接口编排层
+  ↓
+Domain 领域层
+  ↓
+Repository 数据访问层
+  ↓
+MySQL / Redis / 外部系统
+```
+
+1. 前端表现层
+
+负责页面展示、月份范围控件、禁选日期和请求参数组装。
+
+位置：
+
+- `/Users/staff/Documents/workspace/qimao/freebook-monorepo/apps/drsp.qmniu.com/src/views`
+- `/Users/staff/Documents/workspace/qimao/freebook-monorepo/apps/drsp.qmniu.com/src/http/api`
+
+前端限制只改善交互，不能作为最终权限控制。
+
+2. HTTP 路由和中间件层
+
+负责：
+
+- 注册 `/api/profit/overview`
+- HTTP 参数绑定到 Proto 请求
+- IAM 登录认证
+- 把用户 ID、角色 ID 写入 `gin.Context`
+
+相关位置：
+
+- [profit.proto (line 24)](/Users/staff/Documents/workspace/qimao-backend/copyright-drsp/api/profit/profit.proto:24)
+- [profit_http.pb.go](/Users/staff/Documents/workspace/qimao-backend/copyright-drsp/api/profit/profit_http.pb.go)
+- [middleware.go](/Users/staff/Documents/workspace/qimao-backend/copyright-drsp/internal/middleware/middleware.go)
+
+这部分可以理解为项目内部的 HTTP 适配层。生成文件通常不直接修改。
+
+3. Service 接口编排层
+
+负责：
+
+- 接收已经绑定好的请求
+- 读取当前登录用户身份
+- 参数及权限校验
+- 编排领域服务
+- 组装接口响应
+- 调用导出逻辑
+
+位置：
+
+- [profit.go (line 55)](/Users/staff/Documents/workspace/qimao-backend/copyright-drsp/internal/app/service/profit.go:55)
+- [album_profit.go (line 53)](/Users/staff/Documents/workspace/qimao-backend/copyright-drsp/internal/app/service/album_profit.go:53)
+
+本次“普通用户最多可以查询哪个月份”的权限裁决最适合放在这一层，并由列表和导出接口复用。
+
+4. Domain 领域层
+
+负责分成领域的核心计算和业务流程，例如：
+
+- 查询合作方
+- 汇总合作方收入
+- 计算上期收入
+- 计算总成本
+- 组装领域结果
+
+位置：
+
+- [profit.go (line 192)](/Users/staff/Documents/workspace/qimao-backend/copyright-drsp/internal/app/domain/profit/profit.go:192)
+- [album_profit.go (line 27)](/Users/staff/Documents/workspace/qimao-backend/copyright-drsp/internal/app/domain/profit/album_profit.go:27)
+
+月份范围下“如何跨月计算总成本、环比”属于这一层的业务规则。
+
+5. Repository 数据访问层
+
+负责生成 SQL、查询数据库并映射结果，不负责判断用户是谁。
+
+位置：
+
+- [fiction_profit_repo.go (line 83)](/Users/staff/Documents/workspace/qimao-backend/copyright-drsp/internal/app/domain/profit/repo/fiction_profit_repo.go:83)
+- [album_profit_repo.go (line 104)](/Users/staff/Documents/workspace/qimao-backend/copyright-drsp/internal/app/domain/profit/repo/album_profit_repo.go:104)
+
+月份范围会在这里落实为 `month BETWEEN start_month AND end_month`，同时处理按合作方、月份分组聚合。
+
+6. 基础设施和外部客户端层
+
+负责连接：
+
+- MySQL
+- Redis
+- OSS
+- OA
+- 消息中心等外部系统
+
+位置：
+
+- `/Users/staff/Documents/workspace/qimao-backend/copyright-drsp/internal/clients`
+- `/Users/staff/Documents/workspace/qimao-backend/copyright-drsp/internal/pkg`
+
+本次导出文件上传 OSS 会经过这一层，但月份权限不应放在这里。
+
+对应本需求，职责应该是：
+
+|规则|所在层|
+|---|---|
+|月份范围控件、禁选月份|前端层|
+|读取当前用户 ID/角色|中间件和 Service 层|
+|计算最大可查询月份、拒绝越权请求|Service 层|
+|跨月汇总及总成本规则|Domain 层|
+|`BETWEEN` 查询和分组聚合|Repository 层|
+|导出文件上传|基础设施层|
+
+因此，本项目里最好不要笼统说“在网关层限制”，更准确的表达是：**IAM 中间件提供用户身份，Service 接口层实施月份数据权限校验。**
