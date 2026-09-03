@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "raw/mine/生活/旅游/莫干山开元森泊3天2晚.md",
+                "file": "raw/工作/七猫服务端/platform-copyright.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "莫干山开元森泊3天2晚"
+              "title": "platform-copyright"
             }
           }
         ]
@@ -199,18 +199,20 @@
   },
   "active": "c057a3286c887170",
   "lastOpenFiles": [
-    "raw/工作/七猫/会议记录.md",
-    "raw/工作/七猫服务端/服务端培训/课程笔记.md",
+    "raw/工作/七猫服务端/copyright-drsp.md",
+    "raw/工作/七猫服务端/服务端知识点/01-Go基础语法.md",
     "raw/工作/七猫服务端/服务端培训/笔记.md",
+    "raw/工作/七猫服务端/服务端培训/课程笔记.md",
+    "raw/mine/生活/旅游/2025旅游计划.md",
+    "raw/mine/生活/旅游/莫干山开元森泊3天2晚.md",
+    "raw/工作/七猫/会议记录.md",
     "raw/工作/七猫/项目排期计划.md",
     "raw/工作/七猫/字段定义.md",
     "raw/工作/七猫/版权中台.md",
-    "raw/工作/七猫服务端/服务端知识点/01-Go基础语法.md",
     "raw/工作/七猫服务端/服务端知识点/05-服务发现与Kubernetes.md",
     "raw/工作/七猫服务端/服务端知识点/04-网关负载均衡与服务实例.md",
     "raw/工作/七猫服务端/服务端知识点/03-分布式与并发控制.md",
     "raw/工作/七猫服务端/服务端知识点/02-Redis与Kafka.md",
-    "raw/mine/生活/旅游/莫干山开元森泊3天2晚.md",
     "raw/工作/七猫服务端/服务端培训",
     "raw/mine/生活/可可/如何教育/成长错位.md",
     "raw/mine/生活/可可/教育.md",
@@ -219,7 +221,6 @@
     "raw/mine/生活/旅游/宜兴3天2晚.md",
     "raw/mine/生活/买房.md",
     "raw/mine/生活/可可/小学怎么上.md",
-    "raw/工作/七猫服务端/copyright-drsp.md",
     "raw/工作/七猫服务端/shenhe.km.com.md",
     "raw/工作/七猫服务端/服务端知识点/README.md",
     "raw/工作/七猫服务端/服务端知识点",
@@ -228,7 +229,6 @@
     "raw/mine/Go语言基础/运行服务端代码.md",
     "raw/mine/生活/可可/绘本/绘本.md",
     "raw/mine/生活/可可/绘本/毛毛虫书籍.md",
-    "raw/mine/生活/旅游/龙之梦2天1晚.md",
     "未命名 2.base",
     "未命名.canvas",
     "未命名 1.base",
