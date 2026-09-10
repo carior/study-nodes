@@ -4,18 +4,18 @@
 
 ## 目录
 
-1. [先建立整体认识](#1-先建立整体认识)
-2. [MySQL、InnoDB 与 MyISAM](#2-mysqlinnodb-与-myisam)
-3. [数据页、索引页与 B+ 树](#3-数据页索引页与-b-树)
-4. [Buffer Pool、Direct I/O 与相关优化](#4-buffer-pooldirect-io-与相关优化)
-5. [Undo Log、Redo Log 与 Binlog](#5-undo-logredo-log-与-binlog)
-6. [MySQL 的 SQL 处理组件](#6-mysql-的-sql-处理组件)
-7. [数据库查询流程](#7-数据库查询流程)
-8. [数据库更新流程](#8-数据库更新流程)
-9. [把核心机制串起来](#9-把核心机制串起来)
-10. [数据库范式与函数依赖](#10-数据库范式与函数依赖)
-11. [常见误区速查](#11-常见误区速查)
-12. [推荐学习顺序](#12-推荐学习顺序)
+1. [先建立整体认识](01MySQL与数据库基础学习笔记.md#1-先建立整体认识)
+2. [MySQL、InnoDB 与 MyISAM](01MySQL与数据库基础学习笔记.md#2-mysqlinnodb-与-myisam)
+3. [数据页、索引页与 B+ 树](01MySQL与数据库基础学习笔记.md#3-数据页索引页与-b-树)
+4. [Buffer Pool、Direct I/O 与相关优化](01MySQL与数据库基础学习笔记.md#4-buffer-pooldirect-io-与相关优化)
+5. [Undo Log、Redo Log 与 Binlog](01MySQL与数据库基础学习笔记.md#5-undo-logredo-log-与-binlog)
+6. [MySQL 的 SQL 处理组件](01MySQL与数据库基础学习笔记.md#6-mysql-的-sql-处理组件)
+7. [数据库查询流程](01MySQL与数据库基础学习笔记.md#7-数据库查询流程)
+8. [数据库更新流程](01MySQL与数据库基础学习笔记.md#8-数据库更新流程)
+9. [把核心机制串起来](01MySQL与数据库基础学习笔记.md#9-把核心机制串起来)
+10. [数据库范式与函数依赖](01MySQL与数据库基础学习笔记.md#10-数据库范式与函数依赖)
+11. [常见误区速查](01MySQL与数据库基础学习笔记.md#11-常见误区速查)
+12. [推荐学习顺序](01MySQL与数据库基础学习笔记.md#12-推荐学习顺序)
 
 ## 1. 先建立整体认识
 
