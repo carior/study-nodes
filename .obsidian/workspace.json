@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "raw/工作/七猫服务端/服务端培训/MySQL 与数据库基础学习笔记.md",
+                "file": "raw/工作/七猫服务端/服务端培训/MySQL与数据库基础学习笔记.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "MySQL 与数据库基础学习笔记"
+              "title": "MySQL与数据库基础学习笔记"
             }
           }
         ]
@@ -80,7 +80,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 320.9375
   },
   "right": {
     "id": "585d262fd118c6cc",
@@ -197,12 +197,17 @@
       "claudian:Open Claudian": false
     }
   },
-  "active": "c057a3286c887170",
+  "active": "4ad47bd2f8dc8e7d",
   "lastOpenFiles": [
+    "raw/工作/七猫服务端/服务端培训/数据库建表对话总结笔记.md",
+    "raw/工作/七猫服务端/服务端培训/MySQL 表结构操作笔记.md",
+    "raw/工作/七猫服务端/DDL+DML.md",
+    "raw/工作/七猫服务端/服务端培训/MySQL与数据库基础学习笔记.md",
     "raw/工作/七猫/项目排期计划.md",
+    "raw/工作/七猫服务端/服务端培训/MySQL 与数据库基础学习笔记.md",
+    "raw/工作/七猫服务端/服务端培训/MySQL 与数据库基础学习笔记1.md",
     "raw/工作/七猫/问题记录.md",
     "raw/工作/七猫/七猫终审弹框逻辑.md",
-    "raw/工作/七猫服务端/服务端培训/MySQL 与数据库基础学习笔记.md",
     "raw/工作/七猫服务端/服务端培训/mysql.md",
     "raw/工作/七猫服务端/服务端培训/课程笔记.md",
     "raw/mine/Go语言基础/七猫春招go学习路线.md",
@@ -220,14 +225,9 @@
     "raw/mine/生活/旅游/2025旅游计划.md",
     "raw/mine/生活/旅游/莫干山开元森泊3天2晚.md",
     "raw/工作/七猫/会议记录.md",
-    "raw/工作/七猫/字段定义.md",
-    "raw/工作/七猫/版权中台.md",
     "raw/工作/七猫服务端/服务端培训",
-    "raw/mine/生活/可可/如何教育/成长错位.md",
-    "raw/mine/生活/可可/教育.md",
     "raw/mine/生活/可可/如何教育",
     "未命名",
-    "raw/mine/生活/旅游/宜兴3天2晚.md",
     "raw/工作/七猫服务端/服务端知识点",
     "未命名 2.base",
     "未命名.canvas",
